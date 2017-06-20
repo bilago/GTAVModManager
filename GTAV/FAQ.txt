@@ -1,0 +1,35 @@
+
+How do I use this Manager?
+
+	http://youtube.com/watch?v=i22l1pEZ9u0 Watch This Video to learn how to use the manager.
+
+I get an error saying I'm missing scripthookv. How do I fix this?
+
+	https://www.gta5-mods.com/tools/script-hook-v Download the latest version of scripthookv here and place scripthookv.dll and dinput8.dll in your GTAV Mods folder. Then press Reload Mods.
+
+I get a malicious web alert for 'gtav-hashes.no-ip.net' what is this?
+
+	This website is a forwarding service to provide you with update notifications. This URL is safe and can be whitelisted, but if you don't want to do so, you can block it. If you block it however, you will never recieve update notifications, but the software will still function correctly.
+
+Why am I getting a 'Your game is corrupt' error message when starting the game?
+
+	This will happen if you put a modfied RPF in your game installation folder, but don't have openIV.asi mod activated. Either activate that mod or restore the RPF with the original backup.
+
+My mod is an XML, YTD, etc file. How do I use it with your manager?
+
+	Those files need to be merged in a RPF file, using the OPENIV program, before being able to be added to the mod manager. Please see the readme for your mod for installation instructions.
+
+I'm getting an error saying the game wasn't launched via steam. Help!
+
+	Go into options (The gear) and select 'Setup Wizard'. Make sure you set your game to Steam , not Rockstar Warehouse. Once fixed, pressed Apply.			
+
+Rockstar Launcher is attempting to redownload the original RPF files I'm trying to mod. How do I stop this?
+
+	The latest version as of 6/1 of this mod manager, uses a new method to store modded RPFs (using the Mods folder). Make sure you're on the latest version of OpenIV and are using the latest openIV.asi mod. There is also a setting in options to disable SC File verification. You can try using that setting as well.
+
+For some reason my mods are not transferring to the program directory when enabling the mods in your manager. Why?
+
+	Symlinking has limitations of where it can be created. Make sure that your hard drive is formatted as an NTFS drive, and that the mods are stored on the same hard drive as the game. If you want to bypass this restriction, you can go into options and change symlink mode to File Copy Mode. This method takes longer to start your game, but it will solve your issues.
+
+
+
